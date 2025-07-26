@@ -626,7 +626,21 @@ p {
   color: var(--color-gray-300);
   font-size: 0.875rem;
 }
-
+/* Responsive Event Filter Buttons */
+@media (max-width: 600px) {
+  .event-filters {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    align-items: stretch;
+  }
+  .event-filter-button {
+    width: 100%;
+    padding: var(--spacing-md) 0;
+    font-size: 1rem;
+    border-radius: var(--radius-sm);
+    text-align: center;
+  }
+}
 
 /* Contact Section */
 .contact-section {
