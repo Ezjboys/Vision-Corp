@@ -165,7 +165,7 @@ p {
 }
 
 .navbar.scrolled {
-  background-color: rgba(10, 95, 214, 0.7);
+  background-color: rgba(60, 140, 255, 0.7);
   backdrop-filter: none;
 }
 
@@ -970,7 +970,7 @@ p {
     left: -100%;
     top: 70px;
     flex-direction: column;
-    background-color: rgba(10, 95, 214, 0.7);
+    background-color: var(--color-black);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -1220,7 +1220,7 @@ p {
 
 
 .navbar.scrolled .nav-link {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .navbar.scrolled .nav-link:hover {
@@ -1232,5 +1232,19 @@ p {
 }
 
 .navbar.scrolled .nav-toggle .bar {
-  background-color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+
+
+.intro-description {
+  text-align: justify;
+}
+
+.about-description {
+  text-align: justify;
+}
+
+.value-description {
+  text-align: justify;
 }
